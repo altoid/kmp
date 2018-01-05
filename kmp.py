@@ -11,8 +11,6 @@ def overlap(pattern):
     m = len(pattern)
 
     f = [0] * m
-    if m == 1:
-        return f
 
     k = 1
     x = 0
